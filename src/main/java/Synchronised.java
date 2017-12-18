@@ -17,6 +17,7 @@ public class Synchronised {
 
                     try {
                         synchronisedObject.incriment();
+                        synchronisedObject.incriment();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -25,7 +26,11 @@ public class Synchronised {
             });
             t1.start();
 
+
         }
+
+        // the purpose fo this code is to inderstand how synchronised woprks and how every thread waits for all the other threads
+
 
         Thread.sleep(1000);
         System.out.println(counter);
@@ -36,8 +41,9 @@ public class Synchronised {
 
         synchronized (this) {
 
-            counter++;
             System.out.println("this is " + Thread.currentThread());
+            Thread.sleep(10000);
+            counter++;
 
 
         }
