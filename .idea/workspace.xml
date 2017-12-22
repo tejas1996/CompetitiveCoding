@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a97e854-5c48-465d-88ee-3e5124249b22" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LetsSee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ReadWrite.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LetsSee.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,24 +50,24 @@
       <file leaf-file-name="LocksState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LocksState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="525">
               <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetsSee.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LetsSee.java">
+      <file leaf-file-name="ReadWrite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReadWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+            <state relative-caret-position="375">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#391#709#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#837#1137#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#401#721#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#850#1152#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +112,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>letsSee</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>readWrite</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -131,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SynchronisedState.java" />
         <option value="$PROJECT_DIR$/src/main/java/LocksState.java" />
         <option value="$PROJECT_DIR$/src/main/java/LetsSee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReadWrite.java" />
       </list>
     </option>
   </component>
@@ -222,27 +232,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LetsSee">
+  <component name="RunManager" selected="Application.ReadWrite">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="AtomicVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="AtomicVariables" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaManiac" />
-      <envs />
     </configuration>
     <configuration name="LetsSee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -261,6 +257,20 @@
     <configuration name="LocksState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="LocksState" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaManiac" />
+      <envs />
+    </configuration>
+    <configuration name="ReadWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReadWrite" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -376,18 +386,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Testing" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AtomicVariables" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SynchronisedState" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LocksState" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LetsSee" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SynchronisedState" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LocksState" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LetsSee" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReadWrite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LetsSee" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LocksState" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SynchronisedState" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Testing" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AtomicVariables" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReadWrite" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LetsSee" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LocksState" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SynchronisedState" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513793966723</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;ReadWrire Locks&quot;">
+      <created>1513936607034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513936607034</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -502,7 +519,8 @@
     <MESSAGE value="&quot;Atomic interger vs int -- thread safety&quot;" />
     <MESSAGE value="&quot;Synchronised thread blocked state&quot;" />
     <MESSAGE value="&quot;Locks thread blocked state&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Locks thread blocked state&quot;" />
+    <MESSAGE value="&quot;ReadWrire Locks&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;ReadWrire Locks&quot;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -513,14 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SynchronisedState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AtomicVariables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -549,13 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#391#709#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#837#1137#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LocksState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="525">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
@@ -865,14 +869,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LetsSee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+        <state relative-caret-position="285">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#391#709#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#837#1137#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#401#721#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#850#1152#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
           </folding>
         </state>
       </provider>

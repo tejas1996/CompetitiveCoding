@@ -1,14 +1,14 @@
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-public class LetsSee {
+public class ReadWrite {
 
     private static String apple = "apple";
     ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 
     public static void main(String[] args) throws InterruptedException {
 
-        final LetsSee letsSee = new LetsSee();
+        final ReadWrite readWrite = new ReadWrite();
 
         Thread t1 = new Thread(new Runnable() {
             @Override
@@ -16,7 +16,7 @@ public class LetsSee {
 
                 try {
                     System.out.println("lock got");
-                    letsSee.change();
+                    readWrite.change();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -35,7 +35,7 @@ public class LetsSee {
                 public void run() {
 
                     try {
-                        letsSee.read();
+                        readWrite.read();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -74,3 +74,4 @@ public class LetsSee {
     }
 
 }
+
