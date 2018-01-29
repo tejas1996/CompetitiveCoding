@@ -1,3 +1,5 @@
+package javaConcurrency;
+
 public class Synchronised {
 
 
@@ -9,7 +11,7 @@ public class Synchronised {
 
         final Synchronised synchronisedObject = new Synchronised();
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
 
             Thread t1 = new Thread(new Runnable() {
                 @Override
@@ -17,7 +19,7 @@ public class Synchronised {
 
                     try {
                         synchronisedObject.incriment();
-                        synchronisedObject.incriment();
+
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -41,8 +43,8 @@ public class Synchronised {
 
         synchronized (this) {
 
-            System.out.println("this is " + Thread.currentThread());
-            Thread.sleep(10000);
+//            System.out.println("this is " + Thread.currentThread());
+            //  Thread.sleep(1000);
             counter++;
 
 

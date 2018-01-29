@@ -1,8 +1,6 @@
-import com.sun.org.apache.xpath.internal.operations.String;
+package javaConcurrency;
 
-import java.sql.Time;
-import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
+import com.sun.org.apache.xpath.internal.operations.String;
 
 public class Puzzle {
 

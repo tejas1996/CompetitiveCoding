@@ -1,3 +1,5 @@
+package javaConcurrency;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AtomicVariables {
@@ -26,6 +28,7 @@ public class AtomicVariables {
             t1.start();
 
         }
+
 
         Thread.sleep(3000);
         System.out.println("the count of int variable is -- " + counter2);

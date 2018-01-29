@@ -1,3 +1,5 @@
+package javaConcurrency;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Locks {
