@@ -51,7 +51,7 @@ public class Tree {
     }
 
 
-    public void print(Node rootw) {
+    public void printInOrder(Node rootw) {
 
         if (rootw.value == root.value)
             rootw = root;
@@ -59,13 +59,13 @@ public class Tree {
         Node local;
         local = rootw;
         if (local.left != null) {
-            print(local.left);
+            printInOrder(local.left);
         }
 
         System.out.println(local.value);
 
         if (local.right != null) {
-            print(local.right);
+            printInOrder(local.right);
 
         }
 
