@@ -16,8 +16,8 @@ public class Nody {
     public Nody contains(char a) {
 
         for (Nody now : child) {
-            if (now.child.contains(a))
-                return now.child.get(a);
+            if (now.nodeValue == a)
+                return now;
         }
         return null;
     }

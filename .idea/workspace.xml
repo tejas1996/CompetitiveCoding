@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a97e854-5c48-465d-88ee-3e5124249b22" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/competativeCoding/SHKSTR.java" afterPath="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java" afterPath="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,24 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SHKSTR.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SHKSTR.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#365#382#0" expanded="true" />
+                <element signature="e#366#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nody.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Nody.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="e#156#165#0" expanded="true" />
               </folding>
@@ -192,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/competativeCoding/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/inheritance/WildAnimals.java" />
         <option value="$PROJECT_DIR$/src/main/java/competativeCoding/SHKSTR.java" />
-        <option value="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java" />
         <option value="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java" />
       </list>
     </option>
   </component>
@@ -635,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528053484092</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&quot;somewhere in between&quot;">
+      <created>1528225854358</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528225854358</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -698,7 +704,8 @@
     <MESSAGE value="&quot;Starting tuts of inheritance&quot;" />
     <MESSAGE value="&quot;Adding code for binary tree&quot;" />
     <MESSAGE value="&quot;adding few codechef solved and half solved ones&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;adding few codechef solved and half solved ones&quot;" />
+    <MESSAGE value="&quot;somewhere in between&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;somewhere in between&quot;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -735,14 +742,8 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1071,23 +1072,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#382#0" expanded="true" />
+            <element signature="e#156#165#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/Nody.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#156#165#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
