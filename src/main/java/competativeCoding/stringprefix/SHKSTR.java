@@ -17,7 +17,7 @@ public class SHKSTR {
         while (count < t) {
             String value = sc.next();
             store.add(value);
-            char[] array = new char[100];
+            char[] array = new char[100000];
             array = value.toCharArray();
 
             if (!nodyHashMap.containsKey(array[0])) {
@@ -62,11 +62,13 @@ public class SHKSTR {
 
             int first = sc.nextInt();
             String query = sc.next();
-            char[] finalst = new char[100];
+            char[] finalst = new char[100000];
             finalst = query.toCharArray();
 
             if (!nodyHashMap.containsKey(finalst[0])) {
-                System.out.println("-1");
+                System.out.println(findLex1(store, Integer.MAX_VALUE));
+                noq--;
+                continue;
             }
             current = nodyHashMap.get(finalst[0]);
 
@@ -98,6 +100,23 @@ public class SHKSTR {
 
         String min = "zzzzzzzzzzzzzzzzz";
         for (Integer i : integer) {
+            if (min.compareTo(store.get(i)) > 0) {
+                if (i < first)
+                    min = store.get(i);
+            }
+
+
+        }
+        return min;
+
+    }
+
+    private static String findLex1(ArrayList<String> store, int first) {
+
+        // logic for lex
+
+        String min = "zzzzzzzzzzzzzzzzz";
+        for (Integer i = 0; i < store.size(); i++) {
             if (min.compareTo(store.get(i)) > 0) {
                 if (i < first)
                     min = store.get(i);

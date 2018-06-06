@@ -51,8 +51,8 @@
       <file leaf-file-name="SHKSTR.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+            <state relative-caret-position="182">
+              <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#366#383#0" expanded="true" />
@@ -150,6 +150,9 @@
       <find>root</find>
       <find>t</find>
       <find>sc.next</find>
+      <find>-1</find>
+      <find>100</find>
+      <find>10</find>
     </findStrings>
     <replaceStrings>
       <replace>readWrite</replace>
@@ -651,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528226456785</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="working  code">
+      <created>1528314112034</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528314112034</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -716,7 +726,8 @@
     <MESSAGE value="&quot;adding few codechef solved and half solved ones&quot;" />
     <MESSAGE value="&quot;somewhere in between&quot;" />
     <MESSAGE value="&quot;fixed the issue in the last commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;fixed the issue in the last commit&quot;" />
+    <MESSAGE value="working  code" />
+    <option name="LAST_COMMIT_MESSAGE" value="working  code" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -743,7 +754,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java</url>
-          <line>98</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -1090,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/competativeCoding/stringprefix/SHKSTR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+        <state relative-caret-position="182">
+          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#366#383#0" expanded="true" />
