@@ -1,4 +1,4 @@
-package competativeCoding;
+package competativeCoding.Shoekand;
 
 public class Tuple {
     int x, y;

@@ -1,4 +1,4 @@
-package competativeCoding;
+package competativeCoding.Shoekand;
 
 import java.util.Map;
 import java.util.Scanner;
@@ -15,6 +15,7 @@ public class Sheokand {
                     Tuple tuple = new Tuple(i, j);
                     double number = (Math.pow(2, i) + Math.pow(2, j));
                     treeMap.put(number, tuple);
+
                 }
             }
 
