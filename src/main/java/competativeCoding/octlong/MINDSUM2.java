@@ -14,11 +14,11 @@ public class MINDSUM2 {
 
         while (t > 0) {
 
-            HashSet<Integer> integers = new HashSet<>();
-            int n = scanner.nextInt();
-            int d = scanner.nextByte();
+            HashSet<Long> integers = new HashSet<>();
+            long n = scanner.nextLong();
+            long d = scanner.nextLong();
             int count = 0;
-            int sin = n;
+            long sin = n;
             while (true) {
 
                 while ((sin / 10) != 0) {
@@ -36,53 +36,64 @@ public class MINDSUM2 {
 
             }
 
-            int ans = Collections.min(integers);
+            long ans = Collections.min(integers);
+
+            if (ans == n) {
+                System.out.println(ans + " 0");
+                t--;
+                continue;
+            }
 
 //            System.out.println("hey");
 
 
             Queue<Sweet> integers2 = new LinkedList<>();
-            HashMap<Integer, Integer> hashset = new HashMap<>();
+            HashMap<Long, Long> hashset = new HashMap<>();
 
-            int dig = getDigSum(n);
-            int val = n + d;
+            long dig = getDigSum(n);
+            long val = n + d;
 
-            int remem;
-            integers2.add(new Sweet(dig, 1));
-            integers2.add(new Sweet(val, 1));
-            while (true) {
+            if (dig == ans) {
+                System.out.println(ans + " 1");
+            } else {
+
+                int remem;
+                integers2.add(new Sweet(dig, 1));
+                integers2.add(new Sweet(val, 1));
+                while (true) {
 
 
-                Sweet ele = integers2.remove();
-                if (ans == ele.num) {
-                    break;
+                    Sweet ele = integers2.remove();
+                    if (ans == ele.num) {
+                        break;
+                    }
+                    count++;
+                    long digSum = getDigSum(ele.num);
+                    long add = ele.num + d;
+
+                    if (!hashset.containsKey(digSum)) {
+                        hashset.put(digSum, ele.remem + 1);
+                        integers2.add(new Sweet(digSum, ele.remem + 1));
+                    }
+                    if (!hashset.containsKey(add)) {
+                        hashset.put(add, ele.remem + 1);
+                        integers2.add(new Sweet(add, ele.remem + 1));
+                    }
+
                 }
-                count++;
-                int digSum = getDigSum(ele.num);
-                int add = ele.num + d;
 
-                if (!hashset.containsKey(digSum)) {
-                    hashset.put(digSum, ele.remem + 1);
-                    integers2.add(new Sweet(digSum, ele.remem + 1));
-                }
-                if (!hashset.containsKey(add)) {
-                    hashset.put(add, ele.remem + 1);
-                    integers2.add(new Sweet(add, ele.remem + 1));
-                }
-
+                System.out.println(ans + " " + hashset.get(ans));
             }
-
-            System.out.println(ans + " " + hashset.get(ans));
-
             t--;
         }
 
 
     }
 
-    public static int getDigSum(int m) {
+    public static long getDigSum(long m) {
 
-        int n, sum = 0;
+        long sum = 0;
+        long n;
         while (m > 0) {
             n = m % 10;
             sum = sum + n;

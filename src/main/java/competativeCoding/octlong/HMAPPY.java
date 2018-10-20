@@ -11,7 +11,6 @@ public class HMAPPY {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int c = scanner.nextInt();
-        int secmax = 0;
         int[] ballons = new int[100];
         int[] candies = new int[100];
         int[] mul = new int[100];
@@ -30,11 +29,9 @@ public class HMAPPY {
         for (int i = 0; i < c; i++) {
 
             int max = mul[0];
-            secmax = mul[1];
 
             for (int j = 0; j < n; j++) {
                 if (mul[j] > max) {
-                    secmax = max;
                     max = mul[j];
                 }
             }
@@ -55,6 +52,7 @@ public class HMAPPY {
                 ans = mul[j];
             }
         }
+
         System.out.println(ans);
 
 
