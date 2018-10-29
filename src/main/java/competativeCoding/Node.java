@@ -2,12 +2,12 @@ package competativeCoding;
 
 public class Node {
 
-    Node left = null;
-    Node right = null;
-    int value;
+    public Node left = null;
+    public Node right = null;
+    public int item;
 
     public Node(int value) {
-        this.value = value;
+        this.item = value;
     }
 
 }

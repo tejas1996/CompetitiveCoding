@@ -27,7 +27,7 @@ public class Tree {
         boolean flag = false;
         while (!flag) {
 
-            if (value < current.value) {
+            if (value < current.item) {
                 if (current.left == null) {
                     flag = true;
                     current.left = node;
@@ -53,7 +53,7 @@ public class Tree {
 
     public void printInOrder(Node rootw) {
 
-        if (rootw.value == root.value)
+        if (rootw.item == root.item)
             rootw = root;
 
         Node local;
@@ -62,7 +62,7 @@ public class Tree {
             printInOrder(local.left);
         }
 
-        System.out.println(local.value);
+        System.out.println(local.item);
 
         if (local.right != null) {
             printInOrder(local.right);
