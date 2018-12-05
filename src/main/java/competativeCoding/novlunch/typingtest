@@ -1,0 +1,1 @@
+$( "#inputfield" ).keyup(function() { $("#inputfield").val( $(".highlight").text() )});

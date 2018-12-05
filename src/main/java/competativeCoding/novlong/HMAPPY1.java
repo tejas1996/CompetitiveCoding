@@ -10,8 +10,8 @@ public class HMAPPY1 {
         int n = scanner.nextInt();
         int q = scanner.nextInt();
         int k = scanner.nextInt();
-        int[] array = new int[10000];
-        char[] queries = new char[10000];
+        int[] array = new int[100007];
+        char[] queries = new char[300007];
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
@@ -41,8 +41,18 @@ public class HMAPPY1 {
                 } else {
                     start--;
                 }
-                if (start == finish || array[start] == 1) {
+                if (start == finish) {
                     flag = true;
+                } else if (array[start] == 1) {
+                    if (tuple.max != k) {
+                        tuple.max++;
+                        tuple.start = start;
+                        if (tuple.end == 0) {
+                            tuple.end = n;
+                        } else {
+                            tuple.end--;
+                        }
+                    }
                 }
             }
         }
