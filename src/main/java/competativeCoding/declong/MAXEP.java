@@ -17,23 +17,30 @@ public class MAXEP {
         while (flag == false) {
 
             if (result == 1) {
-                number = number - factor - 1;
+                if (number - factor - 1 <= 1) {
+                    number = 1;
+                } else {
+                    number = number - factor - 1;
+                }
                 System.out.println("2");
                 System.out.println("1 " + number);
                 previous = 1;
             } else if (result == 0) {
-                number = number + factor + 1;
+                if (number + factor + 1 >= n) {
+                    number = n;
+                } else {
+                    number = number + factor + 1;
+                }
                 System.out.println("1 " + number);
                 previous = -1;
             } else {
-                if (previous == 1) {
-                    number = number + factor + 1;
-                    System.out.println("1 " + number);
-
-                } else {
-                    number = number - factor - 1;
-                    System.out.println("2");
-                    System.out.println("1 " + number);
+                if (number <= 1) {
+                    System.out.println("3 1");
+                    break;
+                }
+                if (number >= n) {
+                    System.out.println("3 " + n);
+                    break;
                 }
             }
             result = scanner.nextInt();
