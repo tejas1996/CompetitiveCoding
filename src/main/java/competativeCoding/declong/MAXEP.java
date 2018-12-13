@@ -7,13 +7,11 @@ public class MAXEP {
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int c = scanner.nextInt();
         boolean flag = false;
         int number = (n + 1) / 2;
         int factor = number / 2;
         System.out.println("1 " + number);
         int result = scanner.nextInt();
-        int previous = 0;
         while (flag == false) {
 
             if (result == 1) {
@@ -64,10 +62,7 @@ public class MAXEP {
                         System.out.println("3 1");
                         break;
                     }
-                    if (number == n) {
-                        System.out.println("3 " + n);
-                        break;
-                    }
+
                     int safe = number - 1;
                     System.out.println("1 " + safe);
                     result = scanner.nextInt();
