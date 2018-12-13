@@ -24,7 +24,6 @@ public class MAXEP {
                 }
                 System.out.println("2");
                 System.out.println("1 " + number);
-                previous = 1;
             } else if (result == 0) {
                 if (number + factor + 1 >= n) {
                     number = n;
@@ -32,7 +31,6 @@ public class MAXEP {
                     number = number + factor + 1;
                 }
                 System.out.println("1 " + number);
-                previous = -1;
             } else {
                 if (number <= 1) {
                     System.out.println("3 1");
@@ -53,6 +51,7 @@ public class MAXEP {
                     result = scanner.nextInt();
                     if (result == 1) {
                         int ans = number + 1;
+                        System.out.println("2");
                         System.out.println("3 " + ans);
                     } else {
                         int ans = number + 2;
