@@ -16,6 +16,8 @@ public class TreeToDLL {
             right.left = root;
             root.right = right;
         }
+
+        Node head = getFirstOfDLL(root);
         System.out.println("done here");
 
 
@@ -45,14 +47,19 @@ public class TreeToDLL {
             node.right = right;
         }
 
-
         if (type.equals("left")) {
             return right;
         } else {
             return left;
         }
+    }
 
+    private static Node getFirstOfDLL(Node node) {
 
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
     }
 
 
