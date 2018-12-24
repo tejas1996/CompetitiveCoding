@@ -1,4 +1,4 @@
-package competativeCoding;
+package algorithms.Arrays;
 
 import java.util.Scanner;
 

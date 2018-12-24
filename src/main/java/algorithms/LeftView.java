@@ -1,4 +1,4 @@
-package gfgTree;
+package algorithms;
 
 import competativeCoding.Node;
 
