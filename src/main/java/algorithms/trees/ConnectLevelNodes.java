@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.trees;
 
 import java.util.HashMap;
 

@@ -1,4 +1,6 @@
-package algorithms;
+package algorithms.trees;
+
+import algorithms.trees.Node;
 
 public class TreeToDLL {
 

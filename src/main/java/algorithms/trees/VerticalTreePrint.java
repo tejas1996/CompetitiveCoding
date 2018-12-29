@@ -1,4 +1,6 @@
-package algorithms;
+package algorithms.trees;
+
+import algorithms.trees.Node;
 
 import java.util.ArrayList;
 import java.util.HashMap;

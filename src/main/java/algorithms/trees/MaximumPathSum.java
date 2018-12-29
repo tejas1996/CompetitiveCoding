@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.trees;
 
 public class MaximumPathSum {
 
