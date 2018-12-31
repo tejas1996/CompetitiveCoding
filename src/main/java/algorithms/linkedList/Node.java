@@ -1,11 +1,11 @@
 package algorithms.linkedList;
 
 public class Node {
-    int value;
+    int data;
     Node next;
 
-    public Node(int value) {
-        this.value = value;
+    public Node(int data) {
+        this.data = data;
     }
 }
 

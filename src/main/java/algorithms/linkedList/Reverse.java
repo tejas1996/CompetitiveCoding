@@ -1,28 +1,28 @@
 package algorithms.linkedList;
 
-public class MiddleElement {
+public class Reverse {
 
     public static void main(String[] args) {
-        Node root = formLinkedList();
-        Node middle = findMiddle(root);
-        System.out.println(middle.data);
+
+
+        Node head = formLinkedList();
+        Node newHead = reverseList(head);
+        head.next = null;
+        System.out.println("got it");
 
     }
 
-    public static Node findMiddle(Node root) {
-        Node slow = root;
-        Node fast = root;
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
-            if (fast.next == null) {
-                break;
-            }
-            fast = fast.next;
+    private static Node reverseList(Node node) {
+
+        if (node.next == null) {
+            return node;
         }
-        return slow;
+        Node newHead = reverseList(node.next);
+        node.next.next = node;
+        return newHead;
 
     }
+
 
     public static Node formLinkedList() {
 
@@ -39,6 +39,5 @@ public class MiddleElement {
 //        five.next = six;
         return root;
     }
-
 
 }
