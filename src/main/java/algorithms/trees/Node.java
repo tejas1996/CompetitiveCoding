@@ -2,12 +2,24 @@ package algorithms.trees;
 
 public class Node {
 
-    int value;
+    public int value;
     Node left, right;
     public Node nexrRight;
 
     public Node(int value) {
         this.value = value;
+    }
+
+    @Override
+    public boolean equals(Object v) {
+        boolean retVal = false;
+
+        if (v instanceof Node) {
+            Node ptr = (Node) v;
+            retVal = ptr.value == this.value + 2;
+        }
+
+        return retVal;
     }
 
 }
