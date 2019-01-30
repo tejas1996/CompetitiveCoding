@@ -16,7 +16,7 @@ public class Node {
 
         if (v instanceof Node) {
             Node ptr = (Node) v;
-            retVal = ptr.value == this.value + 2;
+            retVal = ptr.value == this.value;
         }
 
         return retVal;

@@ -7,14 +7,15 @@ import java.util.*;
 
 public class PriorityQ {
 
-    public static Comparator<Node> nodComparator = new Comparator<Node>() {
-        @Override
-        public int compare(Node o1, Node o2) {
-            return o1.value - o2.value;
-        }
-    };
 
     public static void main(String[] args) {
+
+        Comparator<Node> nodComparator = new Comparator<Node>() {
+            @Override
+            public int compare(Node o1, Node o2) {
+                return o1.value - o2.value;
+            }
+        };
 
         ArrayList<Node> data = new ArrayList<>();
         Node node = new Node(6);
@@ -27,7 +28,7 @@ public class PriorityQ {
         for (int i = 0; i < data.size(); i++) {
             priorityQueue.add(data.get(i));
         }
-        Node node1 = new Node(7);
+        Node node1 = new Node(3);
         boolean result = priorityQueue.contains(node1);
 
         System.out.println(result);
