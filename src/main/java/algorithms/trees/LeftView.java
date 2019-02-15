@@ -8,54 +8,54 @@ import java.util.Scanner;
 public class LeftView {
 
 
+    static int depth = 0;
     public static void main(String args[]) {
-        Node node = new Node(5);
-        leftView(node);
+        Node root = formTree1();
+        leftView(root, 1);
 
     }
 
-    public static void leftView(Node root) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
+    private static void leftView(Node node, int height) {
 
-        while (t > 0) {
-            int n = sc.nextInt();
-            HashMap<Integer, Node> hashMap = new HashMap<>();
-            for (int i = 0; i < n; i++) {
-                if (i == 0) {
-                    int start = sc.nextInt();
-                    root.item = start;
-                    hashMap.put(start, root);
-                    int newNode = sc.nextInt();
-                    char dir = sc.nextLine().charAt(1);
-                    Node node = new Node(newNode);
-                    hashMap.put(newNode, node);
-                    if (dir == 'R') {
-                        root.right = node;
-                    } else {
-                        root.left = node;
-                    }
-
-                } else {
-                    int start = sc.nextInt();
-                    int newNode = sc.nextInt();
-                    char dir = sc.nextLine().charAt(1);
-                    Node node = new Node(newNode);
-                    hashMap.put(newNode, node);
-                    Node parent = hashMap.get(start);
-                    if (dir == 'R') {
-                        parent.right = node;
-                    } else {
-                        parent.left = node;
-                    }
-
-                }
-
-            }
-
-
-            t--;
+        if (node == null) {
+            return;
         }
+
+        if (height > depth) {
+            System.out.println(node.item);
+            depth = height;
+        }
+
+        if (node.left != null) {
+            leftView(node.left, height + 1);
+        }
+        if (node.right != null) {
+            leftView(node.right, height + 1);
+        }
+
+    }
+
+
+    private static Node formTree1() {
+
+        Node root = new Node(5);
+        Node three = new Node(3);
+        Node three2 = new Node(3);
+        root.left = three;
+        root.right = three2;
+        Node one1 = new Node(1);
+        Node one2 = new Node(1);
+        Node two = new Node(2);
+        Node two2 = new Node(2);
+        three.left = one1;
+        three.right = two;
+        three2.left = two2;
+        three2.right = one2;
+
+        Node test = new Node(6);
+        one2.right = test;
+
+        return root;
 
     }
 
