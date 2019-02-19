@@ -3,6 +3,7 @@ package algorithms.Heap;
 import algorithms.Graphs.DistanceNode;
 import algorithms.trees.Node;
 
+import javax.sound.sampled.Line;
 import java.util.*;
 
 public class PriorityQ {
@@ -36,5 +37,23 @@ public class PriorityQ {
 //        System.out.println(priorityQueue.poll().value);
 //        System.out.println(priorityQueue.poll().value);
 //        System.out.println(priorityQueue.poll().value);
+
+
+        Stack queue = new Stack();
+        queue.push(7);
+        queue.push(1);
+        queue.push(4);
+        System.out.println(queue.pop());
+        System.out.println(queue.pop());
+        System.out.println(queue.pop());
+
+//        PriorityQueue simpole = new PriorityQueue(Collections.reverseOrder());
+//        simpole.add(8);
+//        simpole.add(1);
+//        simpole.add(2);
+//        simpole.add(10);
+//        System.out.println(simpole.poll());
+//        System.out.println(simpole.poll());
+
     }
 }
