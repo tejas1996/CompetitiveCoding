@@ -20,7 +20,7 @@ public class CommonSubSeq {
         for (int i = 0; i < n; i++) {
             dp[0][i] = 0;
             dp[i][0] = 0;
-        }
+        }   
 
         int max = 0;
 
