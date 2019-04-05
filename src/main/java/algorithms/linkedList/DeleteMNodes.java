@@ -1,5 +1,9 @@
 package algorithms.linkedList;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class DeleteMNodes {
     public static void main(String[] args) {
 
