@@ -10,7 +10,7 @@ public class BipartiteGraph {
         List<Edge> edges = Arrays.asList(new Edge(0, 1), new Edge(1, 2),
                 new Edge(2, 3), new Edge(3, 4), new Edge(1, 4),
                 new Edge(4, 1));
-        Graph graph = new Graph(edges);
+        Graph graph = new Graph(edges, edges.size());
         List<List<Integer>> adj = graph.adj;
         boolean answer = checkBipartite(adj);
         System.out.println(answer);

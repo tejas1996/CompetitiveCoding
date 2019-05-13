@@ -11,16 +11,20 @@ public class Graph {
 
     List<List<Integer>> adj = new ArrayList<>();
 
-    public Graph(List<Edge> edges) {
-        for (int i = 0; i < edges.size(); i++)
+    Graph(List<Edge> edges, int N) {
+        adj = new ArrayList<>(N);
+
+        for (int i = 0; i < N; i++) {
             adj.add(i, new ArrayList<>());
+        }
 
-        for (Edge current : edges) {
-            // allocate new node in adjacency List from src to dest
-            adj.get(current.src).add(current.dest);
+        // add edges to the undirected graph
+        for (int i = 0; i < edges.size(); i++) {
+            int src = edges.get(i).src;
+            int dest = edges.get(i).dest;
 
-            // Uncomment next line for undirected graph
-            adj.get(current.dest).add(current.src);
+            adj.get(src).add(dest);
+            adj.get(dest).add(src);
         }
     }
 
@@ -46,7 +50,7 @@ public class Graph {
 //								new Edge(4, 5), new Edge(5, 4));
 
         // construct graph from given list of edges
-        Graph graph = new Graph(edges);
+        Graph graph = new Graph(edges, edges.size());
         // print adjacency list representation of the graph
         printGraph(graph);
     }
