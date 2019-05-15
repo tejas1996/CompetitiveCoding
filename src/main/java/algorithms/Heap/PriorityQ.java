@@ -32,8 +32,10 @@ public class PriorityQ {
         Node node1 = new Node(3);
         boolean result = priorityQueue.contains(node1);
 
+        int das[] = new int[100];
+
         System.out.println(result);
-//        System.out.println(priorityQueue.poll().value);
+        System.out.println(priorityQueue.poll().value);
 //        System.out.println(priorityQueue.poll().value);
 //        System.out.println(priorityQueue.poll().value);
 //        System.out.println(priorityQueue.poll().value);
@@ -43,6 +45,9 @@ public class PriorityQ {
         queue.push(7);
         queue.push(1);
         queue.push(4);
+        while (!queue.isEmpty()) {
+            Object an = queue.pop();
+        }
         System.out.println(queue.pop());
         System.out.println(queue.pop());
         System.out.println(queue.pop());
